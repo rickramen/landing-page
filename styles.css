@@ -1,13 +1,13 @@
 body{
     font-family: Roboto;
     height: 100%;
-    margin: 0;
+    margin: 0;    
 }
 
 header {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 20px;
+    padding: 30px 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,12 +38,21 @@ nav ul li a {
     text-decoration: none; 
 }
 
-
 .hero {
     background-color: #1F2937;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 300px;
+}
+
+.hero-content{
     color: #F9FAF8;
     font-size: 24px;
-    padding: 20px;
+}
+
+.hero-image img {
+    height: auto;
 }
 
 .btn-hero {
@@ -95,6 +104,7 @@ nav ul li a {
    padding: 100px;
    display: flex;
    justify-content: center;
+   position: relative;
 }
 
 blockquote {
@@ -113,7 +123,11 @@ blockquote p {
     font-size: 24px;
     font-style: normal; 
     font-weight: bold;
+    position: absolute; 
+    right: 350px; 
+    text-align: right; 
 }
+
 
 .banner-section {
     justify-content: center;
